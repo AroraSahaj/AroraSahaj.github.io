@@ -1,0 +1,34 @@
+body {
+    background-image: url('https://www.cricket.com.au/-/media/News/2017/11/28Kohli.ashx');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+div {
+    height: 600px;
+    background-size: 100% 100%;
+    margin-bottom: 400px;
+    background-attachment: fixed;
+}
+
+#div_1 {
+    background-image: url("http://www.mycricketzone.com/wp-content/uploads/2018/02/Indian_Team-PTI1-1.jpg");
+}
+#div_2 {
+    background-image: url("http://tllt.in/wp-content/uploads/2017/11/Sachin-Tendulkar.jpg");
+}
+#div_3 {
+    background-image: url("https://d1u4oo4rb13yy8.cloudfront.net/rhrjcnnjqi-1495189666.jpg");
+}
+#div_4 {
+    background-image: url("http://cricket.upcomingwiki.com/sites/default/files/styles/large/public/field/image/top-10-indian-cricket-batsman-all-time-in%20-odi-cricket-upcoming-wiki.jpg");
+}
+#div_5 {
+    background-image: url("https://sportzwiki.com/wp-content/uploads/2016/03/Zak.jpg");
+}
+#div_6 {
+    background-image: url("http://cricketindia.info/wp-content/uploads/2017/02/team-india.jpg");
+}

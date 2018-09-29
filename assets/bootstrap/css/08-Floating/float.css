@@ -1,0 +1,22 @@
+#parent {
+    background-color: red;
+    /* height: 470px; */
+}
+.col-1 {
+    float: left;
+    
+    background-color: lightblue;
+}
+
+.col-2 {
+   /* float: left;*/
+    /* float: right; */
+   /* width: 50%;*/
+    /* background-color: lightcoral; */
+}
+
+.div_1 {
+    background-color: lightgreen;
+}
+
+
