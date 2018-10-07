@@ -63,23 +63,29 @@ for(var i=0;i<songsArray.length;i++){
 //     console.log(tli);
 
 
-    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 // }
 loadPlayList();
 for(var i=0;i<topsongsArray.length;i++){
     var tli=document.createElement("li");
     var tspan=document.createElement("span");
     var timg=document.createElement("img");
-    var playicon=document.createElement("button");
-tspan.innerHTML=topsongsArray[i].tsongName;
-tspan.setAttribute('title', topsongsArray[i].tsongId);
-img.setAttribute('src' , topsongsArray[i].tsongImage);
-playIcon.className = 'playIcon';
-tli.appendChild(timg);
+    var playIcon=document.createElement("button");
+    tspan.innerHTML=topsongsArray[i].tsongName;
+    tspan.setAttribute('title', topsongsArray[i].tsongId);
+    timg.setAttribute('src' , topsongsArray[i].tsongImage);
+    timg.className='topsongscover';
+    playIcon.className = 'playIcon';
+    // playIcon.innerHTML = 'hello';
+    tli.appendChild(timg);
     tli.appendChild(tspan);
     tli.appendChild(playIcon);
     playIcon.addEventListener("click",setSongName);
-}
+    console.log("top songs");
+    console.log(timg);
+    console.log(tli);
+    topsongsplaylist.appendChild(tli);
+ }
 }
 function seekSong(){
     audio.currentTime=slider.value;
